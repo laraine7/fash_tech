@@ -2,7 +2,7 @@
 
 import unittest
 from object.page.Login_page_two import Login_lee,login_url
-from lee.my_log import Log
+from fash_tech_end.my_log import Log
 from selenium import webdriver
 from fash_tech_end.pages.Login_Page import LoginPage
 from fash_tech_end.pages.Shop_classifiy_Page import ShopClassifiy
@@ -137,7 +137,7 @@ class Login_test(unittest.TestCase):
 
             jubin=self.driver.title
 
-            logger.info("------打印支付方式页面的句柄%s--------" %jubin)
+            logger.info("------打印支付方式页面的句柄%s--------"%jubin)
 
             self.driver.switch_to.window(all_h[0])
 
